@@ -5,7 +5,7 @@
   "type": "module",
 "scripts": {
   "dev": "vite",
-  "build": "vite build --base=/ROSHINTH-SOJAN-PORTFOLIO/",
+  "build": "vite build --base=/Portfolio/",
   "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
   "preview": "vite preview"
 },
