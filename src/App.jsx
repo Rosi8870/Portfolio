@@ -104,7 +104,7 @@ function App() {
   const basename = import.meta.env.BASE_URL;
 
   return (
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       <Routes>
         {/* Route for the main landing page, handling the welcome screen state */}
         <Route path="/" element={<LandingPage showWelcome={showWelcome} setShowWelcome={setShowWelcome} />} />
