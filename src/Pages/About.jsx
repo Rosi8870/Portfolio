@@ -122,7 +122,7 @@ const AboutPage = () => {
     const startDate = new Date("2021-11-06");
     const today = new Date();
     const experience = today.getFullYear() - startDate.getFullYear() -
-      (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 3 : 0);
+      (today < new Date(today.getFullYear(), startDate.getMonth(), startDate.getDate()) ? 1 : 0);
 
     return {
       totalProjects: storedProjects.length,
